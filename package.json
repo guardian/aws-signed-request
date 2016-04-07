@@ -1,0 +1,32 @@
+{
+  "name": "aws-signed-request",
+  "version": "1.0.0",
+  "description": "Helper to send signed request from a lambda",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:guardian/lambda-elasticsearch.git"
+  },
+  "author": {
+    "name": "Fabio Crisci",
+    "email": "piuccio@gmail.com"
+  },
+  "engines": {
+    "node": "0.10.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "tap test.js"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "elasticsearch",
+    "signed"
+  ],
+  "devDependencies": {
+    "tap": "^5.7.0"
+  }
+}
