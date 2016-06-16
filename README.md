@@ -40,7 +40,10 @@ var gateway = require('aws-signed-request')({
 
 gateway.send({
 	method: 'POST',
-	path: '/action'
+	path: '/action',
+	message: {
+		json
+	}
 }, function (err, data) {
 	console.log(data);
 });

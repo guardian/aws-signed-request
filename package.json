@@ -5,7 +5,7 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git@github.com:guardian/lambda-elasticsearch.git"
+    "url": "git@github.com:guardian/aws-signed-request.git"
   },
   "author": {
     "name": "Fabio Crisci",
@@ -27,6 +27,6 @@
     "signed"
   ],
   "devDependencies": {
-    "tap": "^5.7.0"
+    "tap": "^5.7.2"
   }
 }
